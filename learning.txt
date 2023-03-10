@@ -1,0 +1,581 @@
+i am gonna write everything i learned in that particular section and its code with it so when i come back i will have notes to refer this
+time, and i am gonna make it available on cloud so i can refer it any where
+
+section 5
+lec 45
+ css display property
+so i am working on css my site added images to it
+learned about display properties
+display: block;
+  there are 4 types of display properties
+  1. block
+ 2. inline
+ 3. inline-block
+ 4. none
+
+ block does not allow any other element to obtain its row
+ but u can change width of block elements
+ paragraph are block elements
+ headings are block elements
+
+ inline allows other elements to obtain its row
+ but u can not change width of inline elements
+ span are inline elements
+
+ inline-block allows other elements to obtain its row and u cha
+ also change its width
+ images are types of inline-block
+
+ none hides the elements
+
+
+ i also learned about visibility
+ so u can mark as visibility: hidden;
+ if u wanna secure its place but dont wanna show it
+ used in quizzes
+
+
+css static and relative postioning
+
+so what i learned in it
+position: relative;
+
+by setting the position to relative , its set relative to its static position
+now u can move that to right ,left ,top , bottom considering its margin
+refer code in challenge blocks
+
+
+
+
+48 absolute positioning
+
+   absolute position is position relative to whole div
+   it does affect the flow of html
+   it leaves it position
+
+   eg
+   position:absolute;
+   right: 10px
+
+   then it wil just leave pixel margin of 10px from its relative div
+   u can refer challenge_absolute for that
+
+
+fixed position : so if we fixed a position of an element, it will maintain its position as we scroll through.
+position: fixed;
+top: 0;
+(need not to mention unit while quantity is 0)
+
+
+49  the dark art of centering elements with css:
+   so here i alinged the cloud and mountains in css-my site using absolute and relative positioning
+   also used text_align: centre;
+   to align everything in centre
+
+   so what mistake i did was so when i declare class in index.html
+   and use it in css u have to use a dot
+
+
+50 font styling in our personal site:
+
+   here we added fonts to our website using
+   font-styling: sanserif;
+
+   what will happen if they dont have that font installed, it will show them other optional font that u have added
+   but if u still want them to view a specific font then u can add that font link in head. (u can use google fonts for that)
+
+51 learn more about typography
+    we will learn more about it in later sessions
+
+52  adding content to our website
+     so there is code given by angela in resource section, copy paste it and make some changes to it.
+     I struggled a lot here bringing images in proper manner , for that i just needed to do
+     display: inline-block;
+
+53 css sizing
+     there are two types of sizing
+     1. static sizing
+     2. dynamic sizing
+
+     1. static: in static the size is determined in pixel and it remains the for every browser no matter what the situation is.
+
+     2. dynamic: the size is determined in % or em or rem .
+       rem is best option as % and em inherit parent sizes also and gives its product size.
+
+
+      1em = 1rem = 16px = 100px
+
+54 font property : changed font weight and height and different properties of fonts
+
+55 css challenge : we have to disign site similar to angela, so learned a lot in it
+
+  1. we have to create seperate style for hover in css
+  2. margin collapding (use padding if u want spacing between elements)
+
+   section 6 BOOTSTRAP
+   section 6 BOOTSTRAP
+      section 6 BOOTSTRAP
+         section 6 BOOTSTRAP
+            section 6 BOOTSTRAP
+
+
+
+63  what is BOOTSTRAP
+
+    we can use bootstrap to design our website with very less code , it has prewritten code
+
+
+64 how can u use BOOTSTRAP
+
+     so , u can download it or u can just past bootstrap link in your html
+     pasting link is more use ful bcoz it requires less time
+
+**use can comment a statment by selecting it and using cntrl + \((forward slash)
+
+
+65 wireframing
+
+   it is creating how ur website will look roughly
+
+
+66 the bootstrap navagation bar
+    the lecture was pretty boaring because i didnt code while understanding it ,  and it the worst mistake everyone makes
+    code while u learn , otherwise it gonna happen like c++ navagation
+
+67 tindog
+
+    we are making a website and understanding bootstrap in the process
+
+68 setting up our new project
+    we added navbar to the starter file althogh i didnt understood it but any way i will copy it
+
+70 bootstrap grid layout sytstem
+    its was about making our site responsive eg col-md-4
+
+72 adding grid layout to our website
+   in order to target the html element in stylesheet we just use there name
+   in order to target classed we use a dot followed by class name
+   in order to target id we use # followed by id name
+
+
+73 addig css links in order is imp (last one get applied)
+
+74  bootstrap containers
+
+
+
+section 7 intermidiate bootstrap
+
+80 coursal part 1
+
+   we added coursal to our website using costum classes in bootstrap
+
+
+
+
+
+
+section 8 (skip for now):
+    web disign
+
+
+
+section 9
+     introduction to javascript
+
+101. intro to javascript
+        intreppeted
+        java and javascript are totally different
+
+
+102. js alert : adding behaviour to our website
+        learned abt alert in js
+        snippets in chrome
+
+103. data types
+  1.number
+  2. string
+  2. boolean
+
+
+
+
+
+section 11 : document object module  (DOM)
+
+140 : adding javascript to our website
+
+142 : introduction to DOM
+
+
+
+section 13 : Advanced javascript and DOM manipulation
+
+
+1. adding event listener to drumkit
+   dont use quote for function in addEventListener
+   dont use later brackets for function if u use it, it will be directly considered function challenge
+
+
+2. higher order function
+  passing function as paramentr imput to other function
+  no need to give brackets when passing as parameter
+
+
+
+section 14: jquery
+
+175: what is jquery
+      famous javascript library
+
+176: incomporate jquery
+ use cdn from official site
+ always include jquery file at end just above the body tag and also above the javascript links
+
+
+177: minification works to reduce the size
+ it removes all coments , spaces to reduce the size of file, so browser can load it fast
+
+178: selecting elements with jquery
+
+
+183: Adding and removing elements in jquery
+
+
+
+section 15: boss level challenge : the simon game
+
+section 16: the unix command line: 
+  
+
+212: understanding the command line 
+  bash cell = bourn against celll 
+greater control on ur machine
+
+214: command line tips and techinque
+
+ls listing all files and  directories in working dirctory
+mkdir used to create new diredtory
+cd documents/ use to travel to documents folder and making it current working directory
+u can also use tab button to auto complete sentences
+cd .. takes back one level
+use can use arrow keys to get previous commands
+u can navigate in command by holding alt key 
+cntrl A navagate at befinneng
+cntrl E navigate at end
+cntrl U delete command
+
+
+
+section 17 : backend web development
+
+
+section 18 : node.js
+works on javascript
+
+other options 
+java, php, python, ruby, ruby on rails
+
+then why node.js 
+cuz its popular 
+works on js
+faster
+
+
+221: the power of command line and how to use node
+
+made file node.js and ran it in terminal
+syntax node node.js
+pwd print working directory
+cd change directory
+
+222: node REPL
+
+we can write js code in terminal just by writing node and then writing js code
+we can exit node terminal by .exit
+
+
+223: how to use native node modules
+
+const fs = require("fs");
+fs.copyFileSync("file1.txt", "file2.txt");
+
+224: node pakage manager (npm)
+npm init (to initilize the pakage file)
+ 
+npm install pakage_name
+
+
+section 19: express.js with node.js
+
+express is just like library for node 
+it let us use node effictely
+
+227: creating first server with express
+
+created a directory mkdir dirname
+created server.js touch server.js
+initilize it   npm init
+downloaded express npm install express
+
+
+cntrl c to get out of any situation in terminal
+
+228: handling request and responses
+
+229: understanding and working with routes
+
+installed nodemon
+it saves us time , of every time loding our site on server
+
+231: making calculator
+
+
+made a server using express and i now send my files to browser by this server
+and all the calculations are done at the server end
+
+235: processing post request with body parser
+
+
+
+
+Section 20: API (applicaation programming interface)
+
+so api is data or methods or functions that can be used to create software or to interact with external system
+
+
+made account on open wether map
+
+download postman to view data clearly and make request more easy and make data easy to acess
+
+242: what is json?
+javascript object notation
+
+
+used https module to send request to open weather map server and get data
+displayed it on console
+const https = require(node:https);
+
+https.get(url, callback function)
+
+used response.on to handle data
+
+
+used body paser to get data from html file
+
+
+
+247: The Mailchip Api
+
+we are going to create a mailchip api
+
+installed packages express bodyparser request
+
+
+249: posting data to mailchip server by their api
+
+
+
+skipping for now
+
+
+
+section 21:
+
+Git Github and Version Control
+
+
+254: version control using git and command line
+
+init git (to initilize the folder for version control using git)
+ls -a  (to view all files including hidden )
+git status (to check if the folder is initilize or file is initilize for version control)
+git add file-name (to add file for traking version control)
+git commit -m "message about changes you made" (commiting file)
+git log (to see changes made)
+git add . (to add all files in folder to staging area)
+git diff file_name (give changes made to the file )
+git checkout file_name (get us to the previous version of the file )
+
+
+
+
+
+terminal text editor 
+1. vim 
+   i (for inserting text)
+   esc (for travelling to command line)
+   :w (for saving the file)
+   :q (for exiting vim)
+how to enter vim
+vim file_name
+
+2. nano
+
+255: Github and Remote Repositories
+
+git remote add origin repo_link-from-github (to add local repo to remote repo or globall repo)
+git push -u origin master  (pushing repo to the master branch)
+
+
+257: gitingnore
+
+make file .gitignore in the folder or local repo and add file_names to it that you want to ignore while pushing or commiting
+these files will not be uploaded to remote 
+
+258: cloning
+
+git clone repo_link (to clone the project)
+
+259: Branching and Mearging 
+
+creating new brank:
+git branch branch_name
+
+seeing avail branches:
+git branch
+
+travelling to certain branch:
+git checkout branch_name
+
+
+
+section 22: EJS  (Embeded javascript templete)
+
+we will make a to do list
+
+
+learned about: var today_pan = new Date();
+   date create an object today_pan
+
+today_pan.getDay();
+gets day of week from 0 to 1
+
+res.sendFile(__dirname + "/index.html);
+allows us to send file frome server
+
+
+using ejs in express : https://github.com/mde/ejs/wiki/Using-EJS-with-Express
+
+create views folder and create ejs template file in it
+
+app.set('view engine', 'ejs');
+
+rendering 
+
+res.render('lists', {kindofday: day});
+
+
+
+<%= %>  (use to paass value from app.js to ejs file)
+
+
+267: running code inside ejs template
+
+we can use scriplet tags to write little logic in the ejs file or our webpage file
+
+<% write javascript here %> 
+
+most of ur logic should be defined in js file , but some that is too difficult to implement in js file can go in ejs file through scriptlets tag
+
+
+268: Passing data from your webpage to your server
+
+
+
+
+
+
+
+
+section 23: boss level challenge 3 
+
+skipped
+
+
+section 24: databases
+sql and nosql
+
+sql :
+structred , old, good at relationship
+
+eg: mysql
+
+
+nosql:
+
+ flashy , not good at relationship
+
+eg: mongodb
+
+
+section 25 : SQL
+
+CREAT 
+READ 
+UPDATE 
+DESTROY
+
+crud  : do crud on eveery data base
+
+
+creating a database in sql
+
+CREATE TABLE products (
+  id INT NOT NULL,
+  name STRING,
+  price MONEY,
+  PRIMARY KEY (id)
+
+)
+
+
+
+writing to a database
+
+INSERT INTO products VALUES (id_name, "name_of_product", price)
+
+
+reading from a database
+
+reading all database
+
+SELECT * FROM products
+
+reading certain elements from database
+
+viewing only two columns
+
+SELECT name, price FROM products
+
+viewing only one row
+
+SELECT * FROM products WHERE id = 1
+
+
+U (updating data in database in sql)
+
+updating any value
+
+UPDATE products
+SET price = 67
+where id = 1
+
+updating the table (altering the table)
+adding the column
+
+ALTER TABLE products
+ADD stock INT
+
+
+
+D(deleting from table)
+
+DELETE FROM products
+where id = 2;
+
+324: understanding sql relation ship , foriegn keys and inner joins
+
+
+
+

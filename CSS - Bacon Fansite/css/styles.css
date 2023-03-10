@@ -1,0 +1,22 @@
+/********************************tag selector*******************/
+h1 {
+  color: red;
+}
+
+img:hover {
+   background-color:gold;
+
+ }
+
+/*******************class selector****************/
+.bacon{
+  background-color: green;
+}
+
+.circle{
+  border-radius: 50%;
+}
+
+.broc{
+  background-color: red;
+}

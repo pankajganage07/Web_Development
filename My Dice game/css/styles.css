@@ -1,0 +1,21 @@
+body {
+  background-color: #393E46;
+  text-align: center;
+}
+
+h1 {
+  color: #59CE8F;
+  font-size: 7rem;
+  font-family: 'Courgette', cursive;
+  padding: 5% 5%;
+}
+
+p {
+  color: #fff;
+}
+
+h3 {
+  color: #59CE8F;
+  font-family: 'Courgette', cursive;
+  font-size: 3rem;
+}

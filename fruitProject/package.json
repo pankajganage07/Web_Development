@@ -1,0 +1,14 @@
+{
+  "name": "fruitproject",
+  "version": "1.0.0",
+  "description": "trying to integrate mongodb with nodejs application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pankajganage",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^5.1.0"
+  }
+}
